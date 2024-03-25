@@ -131,21 +131,14 @@
         }
 
         function exportToCSV() {
-            const fileName = generateRandomFileName(12) + '.csv'; // Tạo tên file ngẫu nhiên
+            const fileName = generateRandomFileName(12) + '.csv';
             const csvContent = "data:text/csv;charset=utf-8," + laps.map((lap, index) => `Lap ${index + 1},${lap}`).join("\n");
             const encodedUri = encodeURI(csvContent);
-            const blob = new Blob([csvContent], {
-                type: 'text/csv;charset=utf-8;'
-            });
-            const csvURL = URL.createObjectURL(blob);
             const link = document.createElement("a");
-            link.setAttribute("href", csvURL);
-            link.setAttribute("download", fileName);
+            link.setAttribute("href", encodedUri);
+            link.setAttribute("download", fileName); // Sử dụng tên file ngẫu nhiên
             document.body.appendChild(link);
             link.click();
-            setTimeout(() => {
-                URL.revokeObjectURL(csvURL);
-            }, 100);
         }
     </script>
 </body>
