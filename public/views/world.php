@@ -1,13 +1,8 @@
 <?php
+$title= "Đồng hồ Thế Giới";
 require_once($_SERVER['DOCUMENT_ROOT'] . '/public/includes/header.php');
 require_once($_SERVER['DOCUMENT_ROOT'] . '/public/includes/navbar.php');
 ?>
-<div class="navbar-center">
-    <h1 class="font-bold normal-case text-lg sm:text-3xl max-w-[66vw] sm:max-w-full truncate">Đồng hồ Thế Giới</h1>
-</div>
-<div class="navbar-end">
-</div>
-</header>
 <main id="main" data-module="world" class="w-screen flex">
     <div class="mx-auto text-center min-w-[160px] xxl:min-w-[300px] max-h-[600px] hidden lg:block">
         <div id="adngin-sidebar_left-0"></div>
