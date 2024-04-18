@@ -24,9 +24,9 @@ require_once($_SERVER['DOCUMENT_ROOT'] . '/public/includes/navbar.php');
                 </div>
             </div>
             <div class="mt-6 flex flex-wrap justify-center gap-4">
-                <button id="startStopBtn" class="btn btn-primary">Start</button>
-                <button id="resetBtn" class="btn btn-secondary">Reset</button>
-                <button id="lapBtn" class="btn btn-secondary">Lap</button>
+                <button id="startStopBtn" class="btn btn-primary">Bắt đầu</button>
+                <button id="resetBtn" class="btn btn-secondary">Đặt lại</button>
+                <button id="lapBtn" class="btn btn-secondary">Vòng</button>
             </div>
         </div>
         <div class=" mt-6" id="storage">
@@ -38,7 +38,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . '/public/includes/navbar.php');
                             <th>#</th>
                             <th>Vòng thời gian</th>
                             <th>Thời gian đã trôi qua</th>
-                            <th>Thời gian hiện tại</th>
+                            <th></th>
                         </tr>
                     </thead>
                     <tbody id="lapsList">
@@ -66,4 +66,4 @@ require_once($_SERVER['DOCUMENT_ROOT'] . '/public/includes/navbar.php');
 <?php
 require_once($_SERVER['DOCUMENT_ROOT'] . '/public/includes/footer.php');
 ?>
-<script src="/app/js/stopwatch.js"></script>
+<script src="/app/js/stopwatch.js?v=1"></script>

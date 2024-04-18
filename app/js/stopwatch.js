@@ -16,10 +16,10 @@ document.getElementById("exportBtn").addEventListener("click", exportToCSV);
 function startStop() {
     if (isRunning) {
         clearInterval(timer);
-        document.getElementById("startStopBtn").textContent = "Start";
+        document.getElementById("startStopBtn").textContent = "Bắt đầu";
         isRunning = false;
     } else {
-        document.getElementById("startStopBtn").textContent = "Stop";
+        document.getElementById("startStopBtn").textContent = "Tạm dừng";
         timer = setInterval(updateDisplay, 10);
         isRunning = true;
     }
@@ -45,7 +45,7 @@ function updateDisplay() {
 
 function reset() {
     clearInterval(timer);
-    document.getElementById("startStopBtn").textContent = "Start";
+    document.getElementById("startStopBtn").textContent = "Bắt đầu";
     isRunning = false;
     milliseconds = 0;
     seconds = 0;

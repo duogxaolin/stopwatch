@@ -25,5 +25,4 @@
     <link rel="manifest" href="https://onlinealarmkur.com/assets/icons/site.webmanifest">
     <link rel="canonical" href="https://onlinealarmkur.com/stopwatch/vi/">
     <link rel="stylesheet" href="/app/modules/css/main.css">
-    <script async data-cfasync="false" src="/app/modules/js/loader.js" type="text/javascript"></script>
 </head>

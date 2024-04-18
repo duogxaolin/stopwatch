@@ -1,0 +1,9 @@
+RewriteEngine On
+#auth
+ErrorDocument 404                                    /404.php
+#auth
+RewriteRule ^world$                         public/views/world.php [L]
+
+#images
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule \.(png|jpeg|webm|gif)$ /assets/image/error_img.png [L]
