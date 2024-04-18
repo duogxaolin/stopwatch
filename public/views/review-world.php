@@ -1,7 +1,7 @@
 <div class="my-10" id="content">
                 <article class="prose max-w-full">
                     <h2>Đồng hồ Thế giới là gì?</h2>
-                    <p><a href="/clock/vi/">Đồng hồ</a> xem giờ thế giới là một công cụ vô giá đối với những người cần phải cập nhật các sự vụ toàn cầu, hoạch định các sự kiện quốc tế hoặc cần phải thường xuyên di chuyển giữa các quốc gia. Trang web này hiển thị giờ địa phương tại các thành phố lớn trên toàn cầu, cho phép người dùng tham chiếu các múi giờ khác nhau một cách dễ dàng và nhanh chóng.</p>
+                    <p><a href="/world">Đồng hồ</a> xem giờ thế giới là một công cụ vô giá đối với những người cần phải cập nhật các sự vụ toàn cầu, hoạch định các sự kiện quốc tế hoặc cần phải thường xuyên di chuyển giữa các quốc gia. Trang web này hiển thị giờ địa phương tại các thành phố lớn trên toàn cầu, cho phép người dùng tham chiếu các múi giờ khác nhau một cách dễ dàng và nhanh chóng.</p>
                     <h2>Làm thế nào để sử dụng Đồng hồ Thế giới?</h2>
                     <p>Bạn không phải làm bất cứ điều gì đặc biệt khi dùng loại đồng hồ xem giờ thế giới này. Bạn có thể truy cập công cụ này bất cứ khi nào và nơi đâu. Chỉ cần mở trang web này, bạn sẽ có quyền truy cập một danh sách đầy đủ các múi giờ của những thành phố trên thế giới. Thoạt đầu, trang web sẽ mặc định giờ địa phương của bạn và hiển thị giờ ở thời điểm hiện tại. Tuy nhiên, bạn có thể thay đổi giờ bằng cách nhấn vào một địa điểm bất kì.</p>
                     <h2>Những ai nên sử dụng Đồng hồ Thế giới?</h2>

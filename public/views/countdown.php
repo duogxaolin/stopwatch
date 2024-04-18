@@ -142,7 +142,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . '/public/includes/navbar.php');
                     <h2>Đếm ngược là gì?</h2>
                     <p>Đếm ngược là trình tự đếm lùi cho đến thời gian bắt đầu của một sự kiện cụ thể. Khi sử dụng công cụ đếm ngược, bạn có thể theo dõi số ngày trôi qua cho đến khi một sự kiện quan trọng như ngày sinh nhật, kì nghỉ lễ, hoặc năm mới bắt đầu.</p>
                     <h2>Đồng hồ Hẹn giờ Đếm ngược theo Ngày là gì?</h2>
-                    <p><a href="/timer/vi/">Đồng hồ hẹn giờ</a> đếm ngược theo ngày là một công cụ trực tuyến miễn phí và dễ sử dụng. Công cụ này cho phép bạn tạo một đồng hồ hẹn giờ đếm ngược có khả năng hiển thị số thời gian còn lại tính đến một ngày nào đó trong tương lai. Nó hoạt động tương tự như một <a href="/date/vi/">công cụ tính ngày</a>, cho phép bạn xem số ngày/giờ còn lại cho đến thời điểm diễn ra một sự kiện nhất định nào đó hay số ngày còn lại tính đến thời điểm ấy.</p>
+                    <p><a href="/timer">Đồng hồ hẹn giờ</a> đếm ngược theo ngày là một công cụ trực tuyến miễn phí và dễ sử dụng. Công cụ này cho phép bạn tạo một đồng hồ hẹn giờ đếm ngược có khả năng hiển thị số thời gian còn lại tính đến một ngày nào đó trong tương lai. Nó hoạt động tương tự như một <a href="/date">công cụ tính ngày</a>, cho phép bạn xem số ngày/giờ còn lại cho đến thời điểm diễn ra một sự kiện nhất định nào đó hay số ngày còn lại tính đến thời điểm ấy.</p>
                     <h2>Làm thế nào để sử dụng Đồng hồ Hẹn giờ Đếm ngược?</h2>
                     <p>Để thiết lập một lịch đếm ngược một cách dễ dàng và nhanh chóng, bạn có thể:</p>
                     <ol>
@@ -151,10 +151,10 @@ require_once($_SERVER['DOCUMENT_ROOT'] . '/public/includes/navbar.php');
                         <li>Nhấn vào nút <strong>Bắt đầu.</strong></li>
                         <li>Để dừng đồng hồ đếm ngược, nhấn nút <strong>Dừng.</strong></li>
                     </ol>
-                    <p>Sau khi thiết lập xong đồng hồ đếm ngược, bạn có thể xem số ngày, giờ, phút và giây cho đến thời điểm sự kiện đã chọn bắt đầu. Khi thời gian còn lại trôi qua hết và đến đúng thời điểm ngày giờ của sự kiện đã chọn, một âm thanh <a href="/vi/">báo động</a> sẽ phát ra để thông báo cho bạn biết.</p>
+                    <p>Sau khi thiết lập xong đồng hồ đếm ngược, bạn có thể xem số ngày, giờ, phút và giây cho đến thời điểm sự kiện đã chọn bắt đầu. Khi thời gian còn lại trôi qua hết và đến đúng thời điểm ngày giờ của sự kiện đã chọn, một âm thanh <strong>báo động</strong> sẽ phát ra để thông báo cho bạn biết.</p>
                     <p>Cuối cùng, khi bạn cập nhật ngày đếm ngược, liên kết URL dùng để truy cập đồng hồ đếm ngược của bạn cũng sẽ được cập nhật. Bạn có thể chia sẻ liên kết này với bạn bè và gia đình, hoặc sử dụng nó để tiếp tục theo dõi thời gian đếm ngược đến các sự kiện sắp tới theo lựa chọn của bạn.</p>
                     <h2>Làm thế nào để thêm một đồng hồ đếm ngược ngày vào trang web của tôi?</h2>
-                    <p>Bạn có thể thêm một <a href="/clock/vi/">đồng hồ</a> đếm ngược vào trang web theo các bước sau đây:</p>
+                    <p>Bạn có thể thêm một <a href="/world">đồng hồ</a> đếm ngược vào trang web theo các bước sau đây:</p>
                     <ul>
                         <li>Nhấn vào biểu tượng "&lt;/>" ở góc trái của trang này.</li>
                         <li>Chọn năm, tháng, ngày, giờ, phút và giây.</li>
