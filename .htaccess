@@ -3,6 +3,7 @@ RewriteEngine On
 ErrorDocument 404                                    /404.php
 #auth
 RewriteRule ^world$                         public/views/world.php [L]
+RewriteRule ^timer$                         public/views/timer.php [L]
 
 #images
 RewriteCond %{REQUEST_FILENAME} !-f
